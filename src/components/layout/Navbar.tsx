@@ -11,7 +11,12 @@ export function Navbar() {
   );
 }
 
-function NavItem({ children, link }) {
+interface Props {
+  children: React.ReactNode;
+  link: string;
+}
+
+function NavItem({ children, link }: Props) {
   return (
     <li className="navbar-itm">
       <a href={link}>{children}</a>
