@@ -1,0 +1,17 @@
+html {
+  padding: 0px;
+  font-family: "Hanken Grotesk", Arial, Helvetica, sans-serif;
+  background-color: var(--bg-darkmode-dark);
+}
+body {
+  margin: 0px;
+}
+
+#gradient-line {
+  background-color: aliceblue;
+  position: absolute;
+  top: 20%;
+  width: 200vw;
+  height: 1px;
+  rotate: -30deg;
+}

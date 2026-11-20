@@ -1,0 +1,72 @@
+:root {
+  --bg-darkmode-dark: #1a1a1a;
+  --bg-darkmode: #262626;
+  --bg-darkmode-light: #333333;
+
+  --bg-lightmode-dark: #cccccc;
+  --bg-lightmode: #d9d9d9;
+  --bg-lightmode-light: #e5e5e5;
+
+  --text-disabled: #808080;
+
+  --primary: #20b52b;
+  --primary-dark1: #17821e;
+  --primary-dark2: #105b15;
+  --primary-light1: #4bdf55;
+  --primary-light2: #93ec99;
+}
+
+:root,
+[data-theme="dark"] {
+  --bg-primary: var(--bg-darkmode-dark);
+  --bg-secondary: var(--bg-darkmode);
+  --bg-tertiary: var(--bg-darkmode-light);
+
+  --text-primary: #ffffff;
+
+  --font-size-h1: 64px;
+  --font-size-h2: 44px;
+  --font-size-h3: 28px;
+  --font-size-h4: 24px;
+  --font-size-h5: 24px;
+  --font-size-paragraph: 16px;
+}
+
+[data-theme="light"] {
+  --bg-primary: var(--bg-lightmode-light);
+  --bg-secondary: var(--bg-lightmode);
+  --bg-tertiary: var(--bg-lightmode-dark);
+
+  --text-primary: #1a1a1a;
+
+  --font-size-h1: 64px;
+  --font-size-h2: 56px;
+  --font-size-h3: 28px;
+  --font-size-h4: 24px;
+  --font-size-h5: 24px;
+  --font-size-paragraph: 16px;
+}
+
+h1 {
+  font-size: var(--font-size-h1);
+}
+
+h2 {
+  font-size: var(--font-size-h2);
+}
+
+h3 {
+  font-size: var(--font-size-h3);
+}
+
+h4 {
+  font-size: var(--font-size-h4);
+}
+
+h5 {
+  font-size: var(--font-size-h5);
+}
+
+p {
+  font-size: var(--font-size-paragraph);
+}
