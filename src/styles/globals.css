@@ -14,3 +14,7 @@ body {
     var(--bg-darkmode-dark) 60%
   );
 }
+
+* {
+  margin: 0px;
+}
