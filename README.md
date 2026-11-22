@@ -1,32 +1,50 @@
-# React + TypeScript + Vite
+# orestas.dev
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+My personal portfolio website, built to showcase my projects, skills, and experience as a Software Systems student and web developer.
 
-Currently, two official plugins are available:
+The website is designed in Figma and developed using React and TypeScript.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**It is still being actively developed.**
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React** – User interface
+- **TypeScript** – Development language
+- **Vite** – Build tool
+- **CSS** – Styling and responsive design
+- **Cloudflare Pages** – Hosting and deployment
 
-## Expanding the Oxlint configuration
+## Features
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+- Responsive layout
+- Dark / Light mode
+- Terminal-inspired interface
+- Personal information and resume
+- Projects and blog sections (planned)
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+## Design
+
+The website's design and prototype are created in Figma.
+
+**[View Figma Prototype](https://www.figma.com/design/6wC1KmmuXNyIetPhbL7P7t/Mano-Website?node-id=0-1&t=mr9pGU1hlGmdEi59-1)**
+
+## Getting Started
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/orestas-stelmokas/orestas-dev.git
+cd orestas-dev
+npm install
+npm run dev
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## Live Website
+
+**[orestas.dev](https://orestas-dev.ostelmokas.workers.dev/)**
+
+## Author
+
+**Orestas Stelmokas**
+
+[GitHub](https://github.com/orestas-stelmokas)
