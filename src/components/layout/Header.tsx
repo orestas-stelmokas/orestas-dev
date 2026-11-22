@@ -6,9 +6,11 @@ function Header() {
     <div className="header">
       <Navbar />
       <div id="container">
-        <h2>
-          orestas<span>.dev</span>
-        </h2>
+        <a href="/">
+          <h2>
+            orestas<span>.dev</span>
+          </h2>
+        </a>
       </div>
       <div id="placeholder">NIGHTMODE</div>
     </div>

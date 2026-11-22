@@ -22,10 +22,13 @@
   font-size: var(--font-size-paragraph);
   text-decoration: none;
 }
-
+.header a {
+  text-decoration: none;
+}
 .header h2 {
   margin: 0px;
   color: var(--bg-lightmode-light);
+  cursor: pointer;
 }
 .header h2 span {
   color: var(--primary);
