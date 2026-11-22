@@ -8,15 +8,13 @@ function Hero() {
         <h2>I am Orestas Stelmokas</h2>
         <div className="active-job">
           <div id="circle-active-job"></div>
-          <h5 style={{ color: "var(--primary)" }}>
-            Software Engineering Student
-          </h5>
+          <h5 style={{ color: "var(--primary)" }}>Software Systems Student</h5>
         </div>
         <div id="seperator-line"></div>
         <p>
-          Currently a 3rd year Software Systems student at Kaunas University of
-          Technology. Alongside my studies, I am actively learning web
-          development, networking and cybersecurity.
+          Currently a third-year year Software Systems student at Kaunas
+          University of Technology. Alongside my studies, I am developing my
+          skills in web design, networking and cybersecurity.
         </p>
         <button
           id="hero-cta-btn"
@@ -98,7 +96,7 @@ function Hero() {
               <div>
                 <div className="fastfetch-info-row">
                   <label>
-                    <p>OS</p>
+                    <p>Tech</p>
                   </label>
                   <p>Next.js / TypeScript</p>
                 </div>
