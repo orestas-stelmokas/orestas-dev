@@ -1,5 +1,6 @@
 import React from "react";
 import { Navbar } from "./Navbar.tsx";
+import DarkLightModeSwitch from "./DarkLightModeSwitch.tsx";
 
 function Header() {
   return (
@@ -12,7 +13,9 @@ function Header() {
           </h2>
         </a>
       </div>
-      <div id="placeholder">NIGHTMODE</div>
+      <div id="placeholder">
+        <DarkLightModeSwitch />
+      </div>
     </div>
   );
 }

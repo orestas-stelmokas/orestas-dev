@@ -68,7 +68,7 @@
   width: 200px;
   height: 40px;
 
-  background: #1a1a1a;
+  background: var(--bg-primary);
   border: 1px solid #20b52b;
   box-shadow:
     -2px 2px 11px -4px rgba(23, 130, 30, 0.65),
@@ -80,7 +80,7 @@
   order: 3;
   flex-grow: 0;
 
-  color: var(--bg-lightmode-light);
+  color: var(--text-primary);
   font-family: "Hanken Grotesk", Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 1rem;
@@ -110,7 +110,7 @@
   max-width: max-content;
 
   background: var(--bg-darkmode-dark);
-  border-radius: 0px 0px 16px 16px;
+  border-radius: 16px;
 
   /* Inside auto layout */
   flex: none;
@@ -139,6 +139,7 @@
 
   background: var(--bg-darkmode-light);
   border-radius: 16px 16px 0px 0px;
+  color: var(--bg-lightmode-light);
 
   /* Inside auto layout */
   flex: none;

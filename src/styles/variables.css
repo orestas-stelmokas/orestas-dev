@@ -6,6 +6,8 @@
   --bg-lightmode-dark: #cccccc;
   --bg-lightmode: #d9d9d9;
   --bg-lightmode-light: #e5e5e5;
+  --bg-gradient-circle-darkmode: rgba(16, 91, 21, 0.05);
+  --bg-gradient-circle-light: rgba(34, 197, 94, 0.12);
 
   --text-disabled: #808080;
 
@@ -21,6 +23,7 @@
   --bg-primary: var(--bg-darkmode-dark);
   --bg-secondary: var(--bg-darkmode);
   --bg-tertiary: var(--bg-darkmode-light);
+  --bg-gradient-circle: var(--bg-gradient-circle-darkmode);
 
   --text-primary: var(--bg-lightmode-light);
 
@@ -33,14 +36,15 @@
 }
 
 [data-theme="light"] {
-  --bg-primary: var(--bg-lightmode-light);
+  --bg-primary: var(--bg-lightmode-dark);
   --bg-secondary: var(--bg-lightmode);
-  --bg-tertiary: var(--bg-lightmode-dark);
+  --bg-tertiary: var(--bg-lightmode-light);
+  --bg-gradient-circle: var(--bg-gradient-circle-lightmode);
 
-  --text-primary: #1a1a1a;
+  --text-primary: var(--bg-darkmode-dark);
 
   --font-size-h1: 64px;
-  --font-size-h2: 56px;
+  --font-size-h2: 44px;
   --font-size-h3: 28px;
   --font-size-h4: 24px;
   --font-size-h5: 24px;

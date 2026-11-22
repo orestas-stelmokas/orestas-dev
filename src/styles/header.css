@@ -1,5 +1,5 @@
 .header {
-  background-color: var(--bg-darkmode-dark);
+  background-color: var(--bg-primary);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -18,7 +18,7 @@
 }
 
 .header ul li a {
-  color: var(--bg-lightmode-light);
+  color: var(--text-primary);
   font-size: var(--font-size-paragraph);
   text-decoration: none;
 }
@@ -27,7 +27,7 @@
 }
 .header h2 {
   margin: 0px;
-  color: var(--bg-lightmode-light);
+  color: var(--text-primary);
   cursor: pointer;
 }
 .header h2 span {
@@ -41,7 +41,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--bg-lightmode-light);
+  color: var(--text-primary);
 }
 
 .header #container {
