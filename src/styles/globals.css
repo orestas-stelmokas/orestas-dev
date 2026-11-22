@@ -1,12 +1,12 @@
 html {
   padding: 0px;
   transition: none !important;
+  font-family: "Hanken Grotesk", Arial, Helvetica, sans-serif;
 }
 body {
   margin: 0px;
   min-height: 100vh;
   background: var(--bg-primary);
-  font-family: "Hanken Grotesk", Arial, Helvetica, sans-serif;
   transition: none !important;
 }
 

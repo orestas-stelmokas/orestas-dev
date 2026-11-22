@@ -8,7 +8,9 @@ function Hero() {
         <h2>I am Orestas Stelmokas</h2>
         <div className="active-job">
           <div id="circle-active-job"></div>
-          <h5>Software Engineering Student</h5>
+          <h5 style={{ color: "var(--primary)" }}>
+            Software Engineering Student
+          </h5>
         </div>
         <div id="seperator-line"></div>
         <p>

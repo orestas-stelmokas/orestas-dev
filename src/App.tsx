@@ -1,11 +1,9 @@
-import Header from "./components/layout/Header.tsx";
-import Hero from "./components/home/Hero.tsx";
+import Home from "./pages/Home";
 
 function App() {
   return (
     <>
-      <Header />
-      <Hero />
+      <Home />
     </>
   );
 }

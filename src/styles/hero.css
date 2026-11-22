@@ -38,7 +38,6 @@
 }
 
 .active-job {
-  color: var(--primary);
   display: flex;
   align-items: center;
   gap: 4px;
@@ -171,6 +170,10 @@
   display: flex;
   flex-direction: row;
   gap: 8px;
+}
+
+#terminal-title p {
+  color: var(--bg-lightmode-light);
 }
 
 .terminal-body {

@@ -46,31 +46,37 @@
 h1 {
   font-size: var(--font-size-h1);
   font-weight: 700;
+  color: var(--text-primary);
 }
 
 h2 {
   font-size: var(--font-size-h2);
   font-weight: 700;
+  color: var(--text-primary);
 }
 
 h3 {
   font-size: var(--font-size-h3);
   font-weight: 700;
+  color: var(--text-primary);
 }
 
 h4 {
   font-size: var(--font-size-h4);
   font-weight: 700;
+  color: var(--text-primary);
 }
 
 h5 {
   font-size: var(--font-size-h5);
   font-weight: 500;
+  color: var(--text-primary);
 }
 
 p {
   font-size: var(--font-size-paragraph);
   font-weight: 400;
+  color: var(--text-primary);
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
