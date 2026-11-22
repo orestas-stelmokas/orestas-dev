@@ -1,5 +1,3 @@
-import React from "react";
-
 function Hero() {
   return (
     <div className="hero-container">
@@ -18,13 +16,7 @@ function Hero() {
         </p>
         <button
           id="hero-cta-btn"
-          onClick={() =>
-            window.open(
-              "../../../public/Orestas Stelmokas.pdf",
-              "_blank",
-              "noopener,noreferrer",
-            )
-          }
+          onClick={() => window.open("/Orestas%20Stelmokas.pdf", "_blank")}
         >
           See My Resume
         </button>
@@ -85,8 +77,8 @@ function Hero() {
             <div id="fastfetch-image-container">
               <img
                 id="fastfetch-image"
-                src="../../../public/coding-logo.png"
-                alt="coding-logo"
+                src="/coding-logo.png"
+                alt="Coding logo"
               />
             </div>
             <div id="fastfetch-info-container">

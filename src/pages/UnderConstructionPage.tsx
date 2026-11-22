@@ -1,5 +1,3 @@
-import React from "react";
-
 function UnderConstructionPage() {
   return (
     <div className="under-contruction-page-container">
