@@ -95,19 +95,27 @@ function Hero() {
               </p>
               <div>
                 <div className="fastfetch-info-row">
-                  <label>OS</label>
+                  <label>
+                    <p>OS</p>
+                  </label>
                   <p>Next.js / TypeScript</p>
                 </div>
                 <div className="fastfetch-info-row">
-                  <label>Education</label>
+                  <label>
+                    <p>Education</p>
+                  </label>
                   <p>Software Systems @KTU</p>
                 </div>
                 <div className="fastfetch-info-row">
-                  <label>Employmet</label>
+                  <label>
+                    <p>Employmet</p>
+                  </label>
                   <p>NULL</p>
                 </div>
                 <div className="fastfetch-info-row">
-                  <label>Email</label>
+                  <label>
+                    <p>Email</p>
+                  </label>
                   <p>
                     <a href="mailto:ostelmokas@gmail.com" target="_blank">
                       ostelmokas@gmail.com
@@ -115,7 +123,9 @@ function Hero() {
                   </p>
                 </div>
                 <div className="fastfetch-info-row">
-                  <label>GitHub</label>
+                  <label>
+                    <p>GitHub</p>
+                  </label>
                   <p>
                     <a
                       href="https://github.com/orestas-stelmokas"
@@ -129,15 +139,21 @@ function Hero() {
               <p className="terminal-fastfetch-info-section-name">HOBBIES</p>
               <div>
                 <div className="fastfetch-info-row">
-                  <label>Sports</label>
+                  <label>
+                    <p>Sports</p>
+                  </label>
                   <p>Gym / Calisthenics</p>
                 </div>
                 <div className="fastfetch-info-row">
-                  <label>Programming</label>
+                  <label>
+                    <p>Programming</p>
+                  </label>
                   <p>Go, JavaScript, C#, Python</p>
                 </div>
                 <div className="fastfetch-info-row">
-                  <label>Academy</label>
+                  <label>
+                    <p>Academy</p>
+                  </label>
                   <p>IoT and Networking @ Teltonika</p>
                 </div>
               </div>

@@ -15,6 +15,13 @@
   --primary-dark2: #105b15;
   --primary-light1: #4bdf55;
   --primary-light2: #93ec99;
+
+  --font-size-h1: 64px;
+  --font-size-h2: 44px;
+  --font-size-h3: 28px;
+  --font-size-h4: 24px;
+  --font-size-h5: 24px;
+  --font-size-paragraph: 16px;
 }
 
 :root,
@@ -25,13 +32,6 @@
   --bg-gradient-circle: var(--bg-gradient-circle-darkmode);
 
   --text-primary: var(--bg-lightmode-light);
-
-  --font-size-h1: 64px;
-  --font-size-h2: 44px;
-  --font-size-h3: 28px;
-  --font-size-h4: 24px;
-  --font-size-h5: 24px;
-  --font-size-paragraph: 16px;
 }
 
 [data-theme="light"] {
@@ -41,13 +41,6 @@
   --bg-gradient-circle: var(--bg-primary);
 
   --text-primary: var(--bg-darkmode-dark);
-
-  --font-size-h1: 64px;
-  --font-size-h2: 44px;
-  --font-size-h3: 28px;
-  --font-size-h4: 24px;
-  --font-size-h5: 24px;
-  --font-size-paragraph: 16px;
 }
 
 h1 {
@@ -78,4 +71,16 @@ h5 {
 p {
   font-size: var(--font-size-paragraph);
   font-weight: 400;
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1600px) {
+  :root {
+    --font-size-h1: 64px;
+    --font-size-h2: 44px;
+    --font-size-h3: 28px;
+    --font-size-h4: 26px;
+    --font-size-h5: 26px;
+    --font-size-paragraph: 20px;
+  }
 }

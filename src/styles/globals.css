@@ -1,14 +1,16 @@
 html {
   padding: 0px;
-  height: 5000px;
+  transition: none !important;
 }
 body {
   margin: 0px;
   min-height: 100vh;
   background: var(--bg-primary);
   font-family: "Hanken Grotesk", Arial, Helvetica, sans-serif;
+  transition: none !important;
 }
 
 * {
   margin: 0px;
+  transition: 0.5s;
 }

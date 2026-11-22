@@ -6,7 +6,12 @@ export function Navbar() {
       <NavItem link="/">Home</NavItem>
       <NavItem link="/">About Me</NavItem>
       <NavItem link="/">Blog</NavItem>
-      <NavItem link="/">Projects</NavItem>
+      <NavItem
+        link="https://github.com/orestas-stelmokas?tab=repositories"
+        target="_blank"
+      >
+        Projects
+      </NavItem>
     </ul>
   );
 }
@@ -14,12 +19,15 @@ export function Navbar() {
 interface Props {
   children: React.ReactNode;
   link: string;
+  target?: string;
 }
 
-function NavItem({ children, link }: Props) {
+function NavItem({ children, link, target }: Props) {
   return (
     <li className="navbar-itm">
-      <a href={link}>{children}</a>
+      <a href={link} target={target}>
+        {children}
+      </a>
     </li>
   );
 }
