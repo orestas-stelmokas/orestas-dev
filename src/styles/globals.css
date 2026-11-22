@@ -5,7 +5,6 @@ html {
 body {
   margin: 0px;
   min-height: 100vh;
-
   background: var(--bg-primary);
   font-family: "Hanken Grotesk", Arial, Helvetica, sans-serif;
 }

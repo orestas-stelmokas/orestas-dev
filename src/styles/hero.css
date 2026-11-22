@@ -7,6 +7,13 @@
   padding: clamp(2rem, 5vw, 6rem);
   padding-top: clamp(2rem, 2vw, 4rem);
   color: var(--text-primary);
+
+  background: radial-gradient(
+    circle at 100% 20%,
+    var(--bg-gradient-circle) 0%,
+    var(--bg-primary) 40%
+  );
+  transition: 0.2s;
 }
 
 .hero-text-container {
@@ -238,6 +245,7 @@
 .fastfetch-info-row {
   display: flex;
   flex-wrap: wrap;
+  transition: 0s;
 }
 
 .fastfetch-info-row:hover {
