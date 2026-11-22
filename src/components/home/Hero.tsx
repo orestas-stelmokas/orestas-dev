@@ -83,9 +83,65 @@ function Hero() {
           </p>
           <div id="fastfetch-output">
             <div id="fastfetch-image-container">
-              <img id="fastfetch-image" src="" alt="coding-logo" />
+              <img
+                id="fastfetch-image"
+                src="../../../public/coding-logo.png"
+                alt="coding-logo"
+              />
             </div>
-            <div id="fastfetch-info-container">info</div>
+            <div id="fastfetch-info-container">
+              <p className="terminal-fastfetch-info-section-name">
+                TECHNICAL INFORMATION
+              </p>
+              <div>
+                <div className="fastfetch-info-row">
+                  <label>OS</label>
+                  <p>Next.js / TypeScript</p>
+                </div>
+                <div className="fastfetch-info-row">
+                  <label>Education</label>
+                  <p>Software Systems @KTU</p>
+                </div>
+                <div className="fastfetch-info-row">
+                  <label>Employmet</label>
+                  <p>NULL</p>
+                </div>
+                <div className="fastfetch-info-row">
+                  <label>Email</label>
+                  <p>
+                    <a href="mailto:ostelmokas@gmail.com" target="_blank">
+                      ostelmokas@gmail.com
+                    </a>
+                  </p>
+                </div>
+                <div className="fastfetch-info-row">
+                  <label>GitHub</label>
+                  <p>
+                    <a
+                      href="https://github.com/orestas-stelmokas"
+                      target="_blank"
+                    >
+                      github.com/orestas-stelmokas
+                    </a>
+                  </p>
+                </div>
+              </div>
+              <p className="terminal-fastfetch-info-section-name">HOBBIES</p>
+              <div>
+                <div className="fastfetch-info-row">
+                  <label>Sports</label>
+                  <p>Gym / Calisthenics</p>
+                </div>
+                <div className="fastfetch-info-row">
+                  <label>Programming</label>
+                  <p>Go, JavaScript, C#, Python</p>
+                </div>
+                <div className="fastfetch-info-row">
+                  <label>Academy</label>
+                  <p>IoT and Networking @ Teltonika</p>
+                </div>
+              </div>
+            </div>
           </div>
           <p className="terminal-text">
             <span className="terminal-hostname">root@orestas.dev ~ $</span>

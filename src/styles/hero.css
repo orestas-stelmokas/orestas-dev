@@ -107,9 +107,9 @@
   gap: 0px;
 
   width: 50%;
-  height: 460px;
+  max-width: max-content;
 
-  background: #1a1a1a;
+  background: var(--bg-darkmode-dark);
   border-radius: 0px 0px 16px 16px;
 
   /* Inside auto layout */
@@ -137,7 +137,7 @@
   left: 0px;
   top: 0px;
 
-  background: #333333;
+  background: var(--bg-darkmode-light);
   border-radius: 16px 16px 0px 0px;
 
   /* Inside auto layout */
@@ -167,6 +167,7 @@
   display: flex;
   flex-direction: column;
   padding: 8px;
+  padding-bottom: 64px;
 }
 
 .terminal-hostname {
@@ -201,18 +202,66 @@
 .terminal-text {
   display: flex;
   align-items: center;
+  color: var(--bg-lightmode-light);
 }
 
 #fastfetch-output {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   gap: 2.4rem;
   height: 100%;
   width: calc(100% - 16px);
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 
 #fastfetch-image-container,
 #fastfetch-info-container {
   flex: 1;
+}
+
+#fastfetch-info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+#fastfetch-image {
+  width: 100%;
+  max-width: 420px;
+  height: auto;
+}
+
+.fastfetch-info-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fastfetch-info-row:hover {
+  background: var(--bg-darkmode-light);
+}
+
+.fastfetch-info-row label {
+  flex: 1;
+  min-width: 150px;
+  color: var(--primary-light1);
+  cursor: default;
+}
+.fastfetch-info-row p {
+  flex: 2;
+  white-space: nowrap;
+  min-width: 240px;
+  color: var(--bg-lightmode-light);
+  cursor: default;
+}
+
+.fastfetch-info-row a {
+  color: var(--bg-lightmode-light);
+  text-decoration: none;
+}
+
+.terminal-fastfetch-info-section-name {
+  color: var(--primary-light2);
 }
